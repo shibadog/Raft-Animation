@@ -1,5 +1,5 @@
 <h1 align="center">
-[![Dark](https://cdn3.emoji.gg/emojis/4161-dark.png)](https://emoji.gg/emoji/4161-dark) :signal_strength: Raft Animation
+:signal_strength: Raft Animation
 </h1>
 <p align="center">
 React hook + anime.js
