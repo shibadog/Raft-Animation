@@ -26,9 +26,15 @@ $ npm start
 
 ## Notice
 - This is a working draft.
+- Better quickly run through each page before using it. Let the animations know where they should be.
 - If you quickly press the "next" button :fast_forward: multiple times, the text may blur each other. You need to wait until the animations finish and continue.
-- Page 29 contains so many animations that there may be some problems with the animations' running order.
+- Page 29 contains so many animations that there may be some problems when you first reach this page.
 - If you meet any problems, wait until the animation is done, go to another page then go back. If this doesn't solve your problem, rerun the project.
- 
+
+ ## Screenshots:
+![](Screenshots/pic1.png)
+![](Screenshots/pic2.png)
+![](Screenshots/pic3.png)
+
 ### License
 [MIT]()
