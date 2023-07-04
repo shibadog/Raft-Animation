@@ -1,0 +1,52 @@
+.Page9Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+#Page9Node1 {
+  transform: scale(6);
+}
+
+
+.Page9Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E14;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}

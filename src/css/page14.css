@@ -1,0 +1,93 @@
+.Page14Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.Page14Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+.Page14NodeDes {
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: white;
+  fill-opacity: 1;
+  white-space: inherit;
+  z-index: 4;
+  color: #C26EFF;
+}
+
+.NodeDesContent {
+  vertical-align: middle;
+  text-align:center;
+  line-height: 21px;
+}
+
+#Page14Node1 {
+  transform: translateY(-100px);
+}
+
+#Page14NodeDes1 {
+  transform: translateX(6px) translateY(-150px);
+}
+
+#Page14Node2 {
+  transform: translateX(-100px) translateY(100px);
+  border-style: dotted;
+}
+
+#Page14NodeDes2 {
+  transform: translateX(-126px) translateY(180px);
+}
+
+#Page14Node3 {
+  transform: translateX(100px)  translateY(100px);
+}
+
+#Page14NodeDes3 {
+  transform: translateX(106px)  translateY(180px);
+}
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E14;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}

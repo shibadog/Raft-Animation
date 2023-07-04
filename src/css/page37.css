@@ -1,0 +1,193 @@
+.Page37Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.Page37Client {
+  background: #FF8E14;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.Page37Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+.Page37NodeDes {
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: white;
+  fill-opacity: 1;
+  white-space: inherit;
+  z-index: 4;
+  color: #C26EFF;
+}
+
+.NodeDesContent {
+  vertical-align: middle;
+  text-align:center;
+  line-height: 21px;
+}
+
+#Page37Client1 {
+  transform: translateX(-150px);
+}
+
+#Page37Node1 {
+  transform: translateX(150px) translateY(-100px);
+}
+
+#Page37NodeDes1 {
+  transform: translateX(150px) translateY(-170px);
+}
+
+#Page37Node2 {
+  transform: translateX(50px) translateY(100px);
+  border-width: 6px;
+  border-style: solid;
+}
+
+#Page37NodeDes2 {
+  transform: translateX(33px) translateY(180px);
+}
+
+#Page37Node3 {
+  transform: translateX(250px)  translateY(100px);
+}
+
+#Page37NodeDes3 {
+  transform: translateX(250px)  translateY(180px);
+}
+
+.Page37HeartBeatResponse {
+  border: 3px solid #E91E63;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+.Page37HeartBeat {
+  background-color: #E91E63;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+.Page37Request {
+  background-color: #FF8E14;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E25;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.Page37Log {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  z-index: 10;
+}
+
+table, tbody, th, tr
+{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #C26EFF;
+}
+
+#TR {
+  border-bottom: 3px solid #C26EFF;
+}
+
+#Page37Log1 {
+  display: none;
+  transform: translateX(230px) translateY(-50px);
+}
+
+#Page37Log2 {
+  transform: translateX(130px) translateY(150px);
+}
+
+#Page37Log3 {
+  display: none;
+  transform: translateX(330px) translateY(150px);
+}

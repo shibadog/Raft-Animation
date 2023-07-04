@@ -1,0 +1,172 @@
+.Page19Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+  transform: translateX(150px);
+}
+
+.Page19Client {
+  background: #FF8E14;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.Page19Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+.Page19NodeDes {
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  z-index: 4;
+  color: #C26EFF;
+  opacity: 1;
+}
+
+.NodeDesContent {
+  vertical-align: middle;
+  text-align:center;
+  line-height: 21px;
+}
+
+.Page19Log {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  z-index: 10;
+}
+
+table, tbody, th, tr
+{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #C26EFF;
+}
+
+.Page19Signal {
+  border: 3px solid #FF8E14;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+#Page19Node1 {
+  text-align: center;
+  line-height: 60px;
+}
+
+#TR {
+  border-bottom: 3px solid #C26EFF;
+}
+
+#Page19Log1 {
+  transform: translateX(130px) translateY(150px);
+}
+
+#Page19Log2 {
+  transform: translateX(230px) translateY(-50px);
+}
+
+#Page19Log3 {
+  transform: translateX(330px) translateY(150px);
+}
+
+#Page19Client1 {
+  transform: translateX(-150px);
+}
+
+#Page19Node1 {
+  border-width: 6px;
+  border-style: solid;
+  transform: translateX(50px) translateY(100px);
+}
+
+#Page19NodeDes2 {
+  transform: translateX(158px) translateY(-150px);
+}
+
+#Page19Node2 {
+  border-width: 6px;
+  border-style: none;
+  transform: translateX(150px) translateY(-100px);
+}
+
+#Page19NodeDes1 {
+  transform: translateX(55px) translateY(180px);
+}
+
+#Page19Node3 {
+  border-width: 6px;
+  border-style: none;
+  transform: translateX(250px) translateY(100px);
+}
+
+#Page19NodeDes3 {
+  transform: translateX(258px)  translateY(180px);
+}
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E14;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}

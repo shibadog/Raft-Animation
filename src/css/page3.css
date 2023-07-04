@@ -1,0 +1,33 @@
+#Page3Point {
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+}
+
+#Page3Text1, #Page3Text2, #Page3Text3 {
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+#Page3Text4 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+

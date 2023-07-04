@@ -1,0 +1,36 @@
+#Page4Node {
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#Page4Text1{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+

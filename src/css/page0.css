@@ -1,0 +1,19 @@
+.animation {
+  z-index: -1;
+  background-color: #252423;
+}
+
+#Box1 {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+#Box2 {
+  position: page;
+  left: 150px;
+  top: 150px;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}

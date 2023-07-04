@@ -1,0 +1,196 @@
+.Page39Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.Page39Client {
+  background: #FF8E14;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.Page39Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+.Page39NodeDes {
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: white;
+  fill-opacity: 1;
+  white-space: inherit;
+  z-index: 4;
+  color: #C26EFF;
+}
+
+.NodeDesContent {
+  vertical-align: middle;
+  text-align:center;
+  line-height: 21px;
+}
+
+#Page39Client1 {
+  transform: translateX(-150px);
+}
+
+#Page39Node1 {
+  transform: translateX(150px) translateY(-100px);
+}
+
+#Page39NodeDes1 {
+  transform: translateX(150px) translateY(-170px);
+}
+
+#Page39Node2 {
+  transform: translateX(50px) translateY(100px);
+  border-width: 6px;
+  border-style: solid;
+}
+
+#Page39NodeDes2 {
+  transform: translateX(33px) translateY(180px);
+}
+
+#Page39Node3 {
+  transform: translateX(250px)  translateY(100px);
+}
+
+#Page39NodeDes3 {
+  transform: translateX(250px)  translateY(180px);
+}
+
+.Page39HeartBeatResponse {
+  border: 3px solid #E91E63;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+.Page39HeartBeat {
+  background-color: #E91E63;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+.Page39Request {
+  background-color: #FF8E14;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E25;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.Page39Log {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  z-index: 10;
+}
+
+table, tbody, th, tr
+{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #C26EFF;
+}
+
+#TR {
+  border-bottom: 3px solid #C26EFF;
+}
+
+#Page39Log1 {
+  transform: translateX(230px) translateY(-50px);
+}
+
+#Page39Log2 {
+  transform: translateX(130px) translateY(150px);
+}
+
+#Page39Log3 {
+  transform: translateX(330px) translateY(150px);
+}
+
+#Page39Node2Text {
+  position: absolute;
+  transform: translateX(-5px) translateY(-5px);
+}

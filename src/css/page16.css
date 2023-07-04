@@ -1,0 +1,108 @@
+.Page16Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.Page16Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 16%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+.Page16NodeDes {
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: white;
+  fill-opacity: 1;
+  white-space: inherit;
+  z-index: 4;
+  color: #C26EFF;
+}
+
+.NodeDesContent {
+  vertical-align: middle;
+  text-align:center;
+  line-height: 21px;
+}
+
+#Page16Node1 {
+  transform: translateY(-100px);
+}
+
+#Page16NodeDes1 {
+  transform: translateX(6px) translateY(-150px);
+}
+
+#Page16Node2 {
+  transform: translateX(-100px) translateY(100px);
+  border-width: 6px;
+  border-style: none;
+}
+
+#Page16NodeDes2 {
+  transform: translateX(-126px) translateY(180px);
+}
+
+#Page16Node3 {
+  transform: translateX(100px)  translateY(100px);
+}
+
+#Page16NodeDes3 {
+  transform: translateX(106px)  translateY(180px);
+}
+
+.Page16Signal {
+  border: 3px solid #FF8E14;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E16;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}

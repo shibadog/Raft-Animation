@@ -1,0 +1,108 @@
+.Page26Node {
+  opacity: 1;
+  background: deepskyblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.Page26Text{
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 15%;
+  color: #E91E63;
+  font-size: 25px;
+}
+
+.Page26NodeDes {
+  top:50%;
+  left:50%;
+  position: fixed;
+  margin-top:-50px;
+  margin-left:-50px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: white;
+  fill-opacity: 1;
+  white-space: inherit;
+  z-index: 4;
+  color: #C26EFF;
+}
+
+.NodeDesContent {
+  vertical-align: middle;
+  text-align:center;
+  line-height: 21px;
+}
+
+#Page26Node1 {
+  transform: translateY(-100px);
+}
+
+#Page26NodeDes1 {
+  transform: translateX(-12px) translateY(-170px);
+}
+
+#Page26Node2 {
+  transform: translateX(-100px) translateY(100px);
+  border-width: 6px;
+  border-style: solid;
+}
+
+#Page26NodeDes2 {
+  transform: translateX(-120px) translateY(180px);
+}
+
+#Page26Node3 {
+  transform: translateX(100px)  translateY(100px);
+}
+
+#Page26NodeDes3 {
+  transform: translateX(84px)  translateY(180px);
+}
+
+.Page26Request {
+  background-color: #E91E63;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-50px;
+  opacity: 1;
+}
+
+
+#White{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#Blue{
+  color: deepskyblue;
+}
+
+#Yellow{
+  color: #FF8E24;
+}
+
+#Focus{
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
