@@ -1,5 +1,5 @@
 <h1 align="center">
-:signal_strength: Raft Animation
+[![Dark](https://cdn3.emoji.gg/emojis/4161-dark.png)](https://emoji.gg/emoji/4161-dark) :signal_strength: Raft Animation
 </h1>
 <p align="center">
 React hook + anime.js
@@ -10,7 +10,7 @@ React hook + anime.js
 
 ## Description
 - Temporary Khoury College Special Project
-- Project Objective: Reproduce the front-end animation of the Raft Consensus Algorithm in a simpler way and with newer technologies.
+- Project Objective: Revamp the front-end animation of the Raft Consensus Algorithm using simpler techniques and modern technologies.
 - Reference Link: https://github.com/benbjohnson/thesecretlivesofdata
 - Professor: <a href="https://www.linkedin.com/in/gortonator/"> Ian Gorton </a>
 
@@ -25,11 +25,11 @@ $ npm start
 - [anime.js](https://github.com/juliangarnier/anime/)
 
 ## Notice
-- This is a working draft.
-- Better quickly run through each page before using it. Let the animations know where they should be.
-- If you quickly press the "next" button :fast_forward: multiple times, the text may blur each other. You need to wait until the animations finish and continue.
-- Page 29 contains so many animations that there may be some problems when you first reach this page.
-- If you meet any problems, wait until the animation is done, go to another page then go back. If this doesn't solve your problem, rerun the project.
+- Please note that this document is currently in a working draft phase. :soon:
+- Before utilizing it, it is advisable to quickly review each page to ensure that the animations are properly positioned. :book:
+- Kindly refrain from rapidly pressing the "next" button multiple times, as it may cause the text to blur together. Please wait until the animations have completed before proceeding. :fast_forward:
+- Page 29 contains a significant number of animations, which may result in some issues upon initial arrival. :collision:
+- Should you encounter any difficulties, we recommend waiting for the animation to finish, navigating to another page, and then returning. If the issue persists, please restart the project. :wrench:
 
  ## Screenshots:
 ![](Screenshots/pic1.png)
