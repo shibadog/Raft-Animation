@@ -29,7 +29,7 @@ function Page1(props){
         <h1 id="Page1Text1" style={{display: props.display?'': 'none'}}>
           Raft
           <div id="Page1Text2">
-            Understandable Distributed Consensus
+            理解しやすい分散合意
           </div>
         </h1>
       </div>

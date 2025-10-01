@@ -19,7 +19,7 @@ function Page34(props){
   return(
       <div className="title">
         <h1 id="Page34Text1" style={{display: props.display?'': 'none'}}>
-          Log Replication
+          ログレプリケーション
         </h1>
       </div>
   );

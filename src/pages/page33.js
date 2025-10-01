@@ -19,9 +19,9 @@ function Page33(props){
   if(obj5 !== null) obj5.innerHTML = 'Vote Count: 2';
 
   let obj6 = document.querySelector('#Page33VoteCount1');
-  if(obj6 !== null) obj6.innerHTML = 'Voted For: C';
+  if(obj6 !== null) obj6.innerHTML = '投票先: C';
   let obj7 = document.querySelector('#Page33VoteCount2');
-  if(obj7 !== null) obj7.innerHTML = 'Voted For: D';
+  if(obj7 !== null) obj7.innerHTML = '投票先: D';
 
   let obj8 = document.querySelector('#Page33NodeTerm2');
   if(obj8 !== null) obj8.innerHTML = 'Term: 1';
@@ -148,7 +148,7 @@ function Page33(props){
         <div className="Page33NodeDes" id="Page33NodeDes1">
           <div className="NodeDesContent"> Node a</div>
           <div className="NodeDesContent" id="Page33NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page33VoteCount1"> Voted For: C</div>
+          <div className="NodeDesContent" id="Page33VoteCount1"> 投票先: C</div>
         </div>
         <div className="Page33Node" id="Page33Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -182,7 +182,7 @@ function Page33(props){
         <div className="Page33NodeDes" id="Page33NodeDes2">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page33NodeTerm2"> Term: 1</div>
-          <div className="NodeDesContent" id="Page33VoteCount2"> Voted For: D</div>
+          <div className="NodeDesContent" id="Page33VoteCount2"> 投票先: D</div>
         </div>
 
         <div className="Page33Node" id="Page33Node2">
@@ -285,8 +285,7 @@ function Page33(props){
         </div>
         <div className="Page33Signal" id="Page33Signal1"/>
         <div className="Page33Signal" id="Page33Signal2"/>
-        <div className="Page33Text" id="Page33Text1"> The nodes will wait for a new election and try again
-          until one node receives a majority of votes and becomes a leader. </div>
+        <div className="Page33Text" id="Page33Text1"> ノードは新しい選出を待ち、1つのノードが過半数の投票を受けてリーダーになるまで再試行します。 </div>
 
       </div>
   );

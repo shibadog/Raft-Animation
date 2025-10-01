@@ -188,7 +188,7 @@ function Page31(props){
         if(obj3 !== null) obj3.innerHTML = 'Term: 1';
 
         let obj5 = document.querySelector('#Page31VoteCount1');
-        if(obj5 !== null) obj5.innerHTML = 'Voted For: C';
+        if(obj5 !== null) obj5.innerHTML = '投票先: C';
 
         anime({
           targets: '#Page31ProgressBarIT1',
@@ -220,7 +220,7 @@ function Page31(props){
         if(obj4 !== null) obj4.innerHTML = 'Term: 1';
 
         let obj6 = document.querySelector('#Page31VoteCount2');
-        if(obj6 !== null) obj6.innerHTML = 'Voted For: D';
+        if(obj6 !== null) obj6.innerHTML = '投票先: D';
 
         anime({
           targets: '#Page31ProgressBarIT2',
@@ -391,7 +391,7 @@ function Page31(props){
         <div className="Page31Request" id="Page31Request4"/>
         <div className="Page31Request" id="Page31Request5"/>
         <div className="Page31Request" id="Page31Request6"/>
-        <div className="Page31Text" id="Page31Text1"> ...and each reaches a single follower node before the other. </div>
+        <div className="Page31Text" id="Page31Text1"> ...そして各候補者は、もう一方より先に単一のフォロワーノードに到達します。 </div>
       </div>
   );
 }

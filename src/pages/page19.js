@@ -88,14 +88,14 @@ function Page19(props){
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page19Node" id="Page19Node1"> <span id='Page19Node1Text'> 5 </span> </div>
         <div className="Page19NodeDes" id="Page19NodeDes1">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <table className="Page19Log" id="Page19Log1">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -108,14 +108,14 @@ function Page19(props){
 
         <div className="Page19Node" id="Page19Node2"/>
         <div className="Page19NodeDes" id="Page19NodeDes2">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <table className="Page19Log" id="Page19Log2">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -127,15 +127,15 @@ function Page19(props){
         </table>
 
         <div className="Page19NodeDes" id="Page19NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page19Node" id="Page19Node3"/>
         <table className="Page19Log" id="Page19Log3">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -148,8 +148,8 @@ function Page19(props){
         <div className="Page19Client" id="Page19Client1"> 5 </div>
         <div className="Page19Signal" id="Page19Signal1"/>
         <div className="Page19Signal" id="Page19Signal2"/>
-        <div className="Page19Text" id="Page19Text1"> then the leader waits until a majority of nodes have written the entry. </div>
-        <div className="Page19Text" id="Page19Text2"> The entry is now committed on the leader node and the node state is "5". </div>
+        <div className="Page19Text" id="Page19Text1"> その後、リーダーは過半数のノードがエントリを書き込むまで待機します。 </div>
+        <div className="Page19Text" id="Page19Text2"> エントリはリーダーノードでコミットされ、ノードの状態は「5」になります。 </div>
       </div>
   );
 }

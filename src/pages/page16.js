@@ -6,7 +6,7 @@ function Page16(props){
   let obj3 = document.querySelector('#Page16Node2');
   if(obj3 !== null) obj3.style.borderStyle = 'dotted';
   let obj4 = document.querySelector('#VoteCount');
-  if(obj4 !== null) obj4.innerHTML = " Vote Count: 0/2";
+  if(obj4 !== null) obj4.innerHTML = " 投票数: 0/2";
 
   function animation() {
     let animation1 = anime.timeline().add({
@@ -39,7 +39,7 @@ function Page16(props){
         let obj2 = document.querySelector('#Page16Node2');
         obj2.style.borderStyle = 'solid';
         let obj3 = document.querySelector('#VoteCount');
-        obj3.innerHTML = "Vote Count: 2/2";
+        obj3.innerHTML = "投票数: 2/2";
         anime({
           targets: '#Page16Signal2',
           opacity: 1,
@@ -85,26 +85,26 @@ function Page16(props){
   return(
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page16NodeDes" id="Page16NodeDes1">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page16Node" id="Page16Node1"/>
         <div className="Page16NodeDes" id="Page16NodeDes2">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent"> Term: 0</div>
-          <div className="NodeDesContent" id="VoteCount"> Vote Count: 0/2</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent"> 任期: 0</div>
+          <div className="NodeDesContent" id="VoteCount"> 投票数: 0/2</div>
         </div>
         <div className="Page16Node" id="Page16Node2"/>
         <div className="Page16NodeDes" id="Page16NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page16Node" id="Page16Node3"/>
         <div className="Page16Signal" id="Page16Signal1"/>
         <div className="Page16Signal" id="Page16Signal2"/>
-        <div className="Page16Text" id="Page16Text1"> Nodes will reply with their vote. </div>
-        <div className="Page16Text" id="Page16Text2"> The candidate becomes the leader if it gets votes from a majority of nodes. </div>
-        <div className="Page16Text" id="Page16Text3"> This process is called <span id="Focus">Leader Election</span>. </div>
+        <div className="Page16Text" id="Page16Text1"> ノードは投票で応答します。 </div>
+        <div className="Page16Text" id="Page16Text2"> 候補者は、ノードの過半数から投票を得るとリーダーになります。 </div>
+        <div className="Page16Text" id="Page16Text3"> このプロセスは<span id="Focus">リーダー選出</span>と呼ばれます。 </div>
       </div>
   );
 }

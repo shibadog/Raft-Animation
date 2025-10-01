@@ -27,9 +27,9 @@ function Page2(props){
   return(
       <div className="title">
         <h1 id="Page2Text1" style={{display: props.display?'': 'none'}}>
-          So What is <span id="Focus"> Distributed Consensus</span>?
+          <span id="Focus">分散合意</span>とは何か？
           <div id="Page2Text2">
-            Let's start with an example...
+            例から始めましょう...
           </div>
         </h1>
       </div>

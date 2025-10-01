@@ -41,7 +41,7 @@ function Page5(props){
       <div style={{display: props.display?'': 'none'}}>
         <div id="Page5Node1"> 0 </div>
         <div id="Page5Client1"> <span id="Page5Point2Text"> 8 </span> </div>
-        <div id="Page5Text1"> We also have a <span id="Yellow"> client </span> that can send value to the <span id="Blue">node</span> </div>
+        <div id="Page5Text1"> <span id="Blue">ノード</span>に値を送信できる<span id="Yellow">クライアント</span>もあります </div>
       </div>
   );
 }

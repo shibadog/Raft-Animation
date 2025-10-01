@@ -22,7 +22,7 @@ function Page4(props){
     return(
         <div style={{display: props.display?'': 'none'}}>
           <div id="Page4Node"> 0 </div>
-          <div id="Page4Text1"> Now the node stores value <span id="White"> 0 </span></div>
+          <div id="Page4Text1"> ノードは現在、値 <span id="White">0</span> を格納しています</div>
         </div>
     );
 }

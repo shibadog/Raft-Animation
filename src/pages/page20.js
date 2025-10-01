@@ -120,14 +120,14 @@ function Page20(props){
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page20Node" id="Page20Node1"> <span id='Page20Node1Text'> 5 </span> </div>
         <div className="Page20NodeDes" id="Page20NodeDes1">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <table className="Page20Log" id="Page20Log1">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -140,14 +140,14 @@ function Page20(props){
 
         <div className="Page20Node" id="Page20Node2"> <span className="Page20NodeText" id='Page20Node2Text'> 5 </span> </div>
         <div className="Page20NodeDes" id="Page20NodeDes2">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <table className="Page20Log" id="Page20Log2">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -159,15 +159,15 @@ function Page20(props){
         </table>
 
         <div className="Page20NodeDes" id="Page20NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page20Node" id="Page20Node3"> <span className="Page20NodeText" id='Page20Node3Text'> 5 </span> </div>
         <table className="Page20Log" id="Page20Log3">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -180,9 +180,9 @@ function Page20(props){
         <div className="Page20Client" id="Page20Client1"> 5 </div>
         <div className="Page20Request" id="Page20Request1"/>
         <div className="Page20Request" id="Page20Request2"/>
-        <div className="Page20Text" id="Page20Text1"> The leader then notifies the followers that the entry is committed. </div>
-        <div className="Page20Text" id="Page20Text2"> The cluster has now come to consensus about the system state. </div>
-        <div className="Page20Text" id="Page20Text3"> This process is called <span id="Focus"> Log Replication</span>. </div>
+        <div className="Page20Text" id="Page20Text1"> その後、リーダーはフォロワーにエントリがコミットされたことを通知します。 </div>
+        <div className="Page20Text" id="Page20Text2"> クラスタはシステムの状態について合意に達しました。 </div>
+        <div className="Page20Text" id="Page20Text3"> このプロセスは<span id="Focus">ログレプリケーション</span>と呼ばれます。 </div>
       </div>
   );
 }

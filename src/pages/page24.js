@@ -69,7 +69,7 @@ function Page24(props){
         let obj2 = document.querySelector('#Page24NodeTerm1');
         if(obj2 !== null) obj2.innerHTML = 'Term: 1';
         let obj3 = document.querySelector('#Page24VoteCount1');
-        if(obj3 !== null) obj3.innerHTML = 'Voted For: A';
+        if(obj3 !== null) obj3.innerHTML = '投票先: A';
         console.log(obj3.innerHTML);
         anime({
           targets: '#Page24Request1',
@@ -93,7 +93,7 @@ function Page24(props){
         let obj2 = document.querySelector('#Page24NodeTerm3');
         if(obj2 !== null) obj2.innerHTML = 'Term: 1';
         let obj3 = document.querySelector('#Page24VoteCount3');
-        if(obj3 !== null) obj3.innerHTML = "Voted For: A";
+        if(obj3 !== null) obj3.innerHTML = "投票先: A";
         anime({
           targets: '#Page24Request2',
           opacity: 1,
@@ -218,7 +218,7 @@ function Page24(props){
         </div>
         <div className="Page24Request" id="Page24Request1"/>
         <div className="Page24Request" id="Page24Request2"/>
-        <div className="Page24Text" id="Page24Text1"> ...and sends out <span id="Focus"> Request Vote </span> messages to other nodes.</div>
+        <div className="Page24Text" id="Page24Text1"> ...そして他のノードに<span id="Focus">投票要求</span>メッセージを送信します。</div>
       </div>
   );
 }

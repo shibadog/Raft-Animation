@@ -190,8 +190,8 @@ function Page39(props){
   return(
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page39NodeDes" id="Page39NodeDes1">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent" id="Page39NodeTerm1"> Term: 1</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent" id="Page39NodeTerm1"> 任期: 1</div>
           <div className="NodeDesContent" id="Page39VoteCount1"> Leader: A</div>
         </div>
         
@@ -199,7 +199,7 @@ function Page39(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -240,8 +240,8 @@ function Page39(props){
         </div>
 
         <div className="Page39NodeDes" id="Page39NodeDes2">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent" id="Page39NodeTerm2"> Term: 1</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent" id="Page39NodeTerm2"> 任期: 1</div>
           <div className="NodeDesContent" id="Page39VoteCount2"> Vote Count: 3</div>
         </div>
 
@@ -249,7 +249,7 @@ function Page39(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -295,8 +295,8 @@ function Page39(props){
         
 
         <div className="Page39NodeDes" id="Page39NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent" id="Page39NodeTerm3"> Term: 1</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent" id="Page39NodeTerm3"> 任期: 1</div>
           <div className="NodeDesContent" id="Page39VoteCount3"> Leader: A</div>
         </div>
 
@@ -304,7 +304,7 @@ function Page39(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -348,7 +348,7 @@ function Page39(props){
         <div className="Page39HeartBeatResponse" id="Page39HeartBeatResponse1"/>
         <div className="Page39HeartBeatResponse" id="Page39HeartBeatResponse2"/>
         <div className="Page39Client" id="Page39Client1"> 5 </div>
-        <div className="Page39Text" id="Page39Text1"> An entry is committed once a majority of followers acknowledge it...</div>
+        <div className="Page39Text" id="Page39Text1"> エントリは、過半数のフォロワーがそれを承認するとコミットされます...</div>
       </div>
   );
 }

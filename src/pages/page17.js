@@ -91,15 +91,15 @@ function Page17(props){
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page17Node" id="Page17Node1"/>
         <div className="Page17NodeDes" id="Page17NodeDes1">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page17Request" id="Page17Request1"/>
         <table className="Page17Log" id="Page17Log1">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -112,21 +112,21 @@ function Page17(props){
 
         <div className="Page17Node" id="Page17Node2"/>
         <div className="Page17NodeDes" id="Page17NodeDes2">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
 
         <div className="Page17NodeDes" id="Page17NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page17Node" id="Page17Node3"/>
 
         <div className="Page17Client" id="Page17Client1"> 5 </div>
 
-        <div className="Page17Text" id="Page17Text1"> All changes to the system now go through the leader. </div>
-        <div className="Page17Text" id="Page17Text2"> Each change is added as an entry in the node's <span id="Focus">Log</span>.</div>
-        <div className="Page17Text" id="Page17Text3"> This log entry is currently uncommitted so it won't update the node's value.</div>
+        <div className="Page17Text" id="Page17Text1"> システムへのすべての変更はリーダーを経由します。 </div>
+        <div className="Page17Text" id="Page17Text2"> 各変更はノードの<span id="Focus">ログ</span>にエントリとして追加されます。</div>
+        <div className="Page17Text" id="Page17Text3"> このログエントリは現在コミットされていないため、ノードの値は更新されません。</div>
       </div>
   );
 }

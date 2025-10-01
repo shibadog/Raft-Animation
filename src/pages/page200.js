@@ -70,9 +70,9 @@ const animations1 = progressBars.map((progressBar, index) =>
         let obj1 = document.querySelector('#Page29Node1');
         if(obj1 !== null) obj1.style.borderStyle = 'dotted';
         let obj2 = document.querySelector('#Page29NodeTerm1');
-        if(obj2 !== null) obj2.innerHTML = 'Term: 2';
+        if(obj2 !== null) obj2.innerHTML = '任期: 2';
         let obj3 = document.querySelector('#Page29VoteCount1');
-        if(obj3 !== null) obj3.innerHTML = 'Vote Count: 1';
+        if(obj3 !== null) obj3.innerHTML = '投票数: 1';
         requestAndResponse.play();
       }
     })
@@ -91,9 +91,9 @@ const animations2 = progressBars.map((progressBar, index) =>
         let obj1 = document.querySelector('#Page29Node1');
         if(obj1 !== null) obj1.style.borderStyle = 'dotted';
         let obj2 = document.querySelector('#Page29NodeTerm1');
-        if(obj2 !== null) obj2.innerHTML = 'Term: 2';
+        if(obj2 !== null) obj2.innerHTML = '任期: 2';
         let obj3 = document.querySelector('#Page29VoteCount1');
-        if(obj3 !== null) obj3.innerHTML = 'Vote Count: 1';
+        if(obj3 !== null) obj3.innerHTML = '投票数: 1';
         requestAndResponse.play();
       }
     })

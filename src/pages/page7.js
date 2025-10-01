@@ -61,8 +61,8 @@ function Page7(props){
         <div className="Page7Node" id="Page7Node2"/>
         <div className="Page7Node" id="Page7Node3"/>
         <div className="Page7Client" id="Page7Client1"> 8 </div>
-        <div className="Page7Text" id="Page7Text1"> However, if we have multiple nodes? </div>
-        <div className="Page7Text" id="Page7Text2"> That's the problem of <span id="Focus"> Distributed Consensus</span>.</div>
+        <div className="Page7Text" id="Page7Text1"> しかし、複数のノードがある場合は？ </div>
+        <div className="Page7Text" id="Page7Text2"> それが<span id="Focus">分散合意</span>の問題です。</div>
       </div>
   );
 }

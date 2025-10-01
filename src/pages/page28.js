@@ -157,7 +157,7 @@ function Page28(props){
         <div className="Page28NodeDes" id="Page28NodeDes1">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page28NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page28VoteCount1"> Leader: A</div>
+          <div className="NodeDesContent" id="Page28VoteCount1"> リーダー: A</div>
         </div>
         <div className="Page28Node" id="Page28Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -228,7 +228,7 @@ function Page28(props){
         <div className="Page28NodeDes" id="Page28NodeDes3">
           <div className="NodeDesContent"> Node c</div>
           <div className="NodeDesContent" id="Page28NodeTerm3"> Term: 1</div>
-          <div className="NodeDesContent" id="Page28VoteCount3"> Leader: A</div>
+          <div className="NodeDesContent" id="Page28VoteCount3"> リーダー: A</div>
         </div>
 
         <div className="Page28Node" id="Page28Node3">
@@ -263,7 +263,7 @@ function Page28(props){
         <div className="Page28Request" id="Page28Request2"/>
         <div className="Page28Signal" id="Page28Signal1"/>
         <div className="Page28Signal" id="Page28Signal2"/>
-        <div className="Page28Text" id="Page28Text1"> Let's stop the leader and watch a re-election happen.</div>
+        <div className="Page28Text" id="Page28Text1"> リーダーを停止して、再選出が発生するのを見てみましょう。</div>
       </div>
   );
 }

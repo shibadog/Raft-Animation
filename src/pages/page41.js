@@ -19,7 +19,7 @@ function Page41(props){
   return(
       <div className="title">
         <h1 id="Page41Text1" style={{display: props.display?'': 'none'}}>
-          The End
+          終わり
         </h1>
       </div>
   );

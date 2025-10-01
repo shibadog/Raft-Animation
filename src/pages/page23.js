@@ -196,8 +196,8 @@ function Page23(props){
           </svg>
         </div>
 
-        <div className="Page23Text" id="Page23Text1"> After the election timeout the follower becomes a candidate and starts a new <span id="Focus"> election term </span>... </div>
-        <div className="Page23Text" id="Page23Text2"> ...votes for itself... </div>
+        <div className="Page23Text" id="Page23Text1"> 選出タイムアウト後、フォロワーは候補者になり、新しい<span id="Focus">選出任期</span>を開始します... </div>
+        <div className="Page23Text" id="Page23Text2"> ...自分自身に投票します... </div>
       </div>
   );
 }

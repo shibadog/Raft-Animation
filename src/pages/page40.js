@@ -168,8 +168,8 @@ function Page40(props){
   return(
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page40NodeDes" id="Page40NodeDes1">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent" id="Page40NodeTerm1"> Term: 1</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent" id="Page40NodeTerm1"> 任期: 1</div>
           <div className="NodeDesContent" id="Page40VoteCount1"> Leader: A</div>
         </div>
         
@@ -177,7 +177,7 @@ function Page40(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -219,8 +219,8 @@ function Page40(props){
         </div>
 
         <div className="Page40NodeDes" id="Page40NodeDes2">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent" id="Page40NodeTerm2"> Term: 1</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent" id="Page40NodeTerm2"> 任期: 1</div>
           <div className="NodeDesContent" id="Page40VoteCount2"> Vote Count: 3</div>
         </div>
 
@@ -228,7 +228,7 @@ function Page40(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -274,8 +274,8 @@ function Page40(props){
         
 
         <div className="Page40NodeDes" id="Page40NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent" id="Page40NodeTerm3"> Term: 1</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent" id="Page40NodeTerm3"> 任期: 1</div>
           <div className="NodeDesContent" id="Page40VoteCount3"> Leader: A</div>
         </div>
 
@@ -283,7 +283,7 @@ function Page40(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -328,7 +328,7 @@ function Page40(props){
         <div className="Page40HeartBeat" id="Page40HeartBeat2"/>
         <div className="Page40Request" id="Page40Request1"/>
         <div className="Page40Client" id="Page40Client1"> 5 </div>
-        <div className="Page40Text" id="Page40Text1"> ...and a response is sent to the client.</div>
+        <div className="Page40Text" id="Page40Text1"> ...そしてクライアントに応答が送信されます。</div>
       </div>
   );
 }

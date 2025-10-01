@@ -192,10 +192,10 @@ function Page22(props){
           </svg>
         </div>
 
-        <div className="Page22Text" id="Page22Text1"> In Raft there are two timeout settings which control elections. </div>
-        <div className="Page22Text" id="Page22Text2"> First is the <span id="Focus"> election timeout</span>. </div>
-        <div className="Page22Text" id="Page22Text3"> The election timeout is the amount of time a follower waits until becoming a candidate.</div>
-        <div className="Page22Text" id="Page22Text4"> The election timeout is randomized to be between 150ms and 300ms.</div>
+        <div className="Page22Text" id="Page22Text1"> Raftには選出を制御する2つのタイムアウト設定があります。 </div>
+        <div className="Page22Text" id="Page22Text2"> 1つ目は<span id="Focus">選出タイムアウト</span>です。 </div>
+        <div className="Page22Text" id="Page22Text3"> 選出タイムアウトは、フォロワーが候補者になるまで待つ時間です。</div>
+        <div className="Page22Text" id="Page22Text4"> 選出タイムアウトは150msから300msの間でランダム化されます。</div>
       </div>
   );
 }

@@ -166,7 +166,7 @@ function Page25(props){
         <div className="Page25NodeDes" id="Page25NodeDes1">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page25NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page25VoteCount1"> Voted For: A</div>
+          <div className="NodeDesContent" id="Page25VoteCount1"> 投票先: A</div>
         </div>
         <div className="Page25Node" id="Page25Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -233,7 +233,7 @@ function Page25(props){
         <div className="Page25NodeDes" id="Page25NodeDes3">
           <div className="NodeDesContent"> Node c</div>
           <div className="NodeDesContent" id="Page25NodeTerm3"> Term: 1</div>
-          <div className="NodeDesContent" id="Page25VoteCount3"> Voted For: A</div>
+          <div className="NodeDesContent" id="Page25VoteCount3"> 投票先: A</div>
         </div>
 
         <div className="Page25Node" id="Page25Node3">
@@ -264,9 +264,9 @@ function Page25(props){
         </div>
         <div className="Page25Signal" id="Page25Signal1"/>
         <div className="Page25Signal" id="Page25Signal2"/>
-        <div className="Page25Text" id="Page25Text1"> If the receiving node hasn't voted yet in this term then it votes for the candidate...</div>
-        <div className="Page25Text" id="Page25Text2"> ...and the node resets its election timeout.</div>
-        <div className="Page25Text" id="Page25Text3"> Once a candidate has a majority of votes it becomes leader.</div>
+        <div className="Page25Text" id="Page25Text1"> 受信ノードがこの任期でまだ投票していない場合、候補者に投票します...</div>
+        <div className="Page25Text" id="Page25Text2"> ...そしてノードは選出タイムアウトをリセットします。</div>
+        <div className="Page25Text" id="Page25Text3"> 候補者が過半数の投票を得ると、リーダーになります。</div>
       </div>
   );
 }

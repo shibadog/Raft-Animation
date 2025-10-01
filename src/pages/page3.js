@@ -61,9 +61,9 @@ function Page3(props){
     return(
         <div style={{display: props.display?'': 'none'}}>
           <div id="Page3Point"/>
-          <div id="Page3Text1"> This is a <span id="Blue">node</span> </div>
-          <div id="Page3Text2"> Let's say we have a single <span id="Blue">node</span> system </div>
-          <div id="Page3Text3"> For example, you can think of the <span id="Blue">node</span> as a database server <br /> that stores a single value.</div>
+          <div id="Page3Text1"> これは<span id="Blue">ノード</span>です </div>
+          <div id="Page3Text2"> 単一<span id="Blue">ノード</span>システムがあるとしましょう </div>
+          <div id="Page3Text3"> 例えば、<span id="Blue">ノード</span>は単一の値を格納する<br />データベースサーバーと考えることができます。</div>
         </div>
     );
 }

@@ -4,9 +4,9 @@ import anime from "animejs";
 
 function Page26(props){
   let obj = document.querySelector('#Page26VoteCount1');
-  if(obj !== null) obj.innerHTML = 'Voted For: A';
+  if(obj !== null) obj.innerHTML = '投票先: A';
   let obj1 = document.querySelector('#Page26VoteCount3');
-  if(obj1 !== null) obj1.innerHTML = 'Voted For: A';
+  if(obj1 !== null) obj1.innerHTML = '投票先: A';
 
   let objs = document.getElementsByClassName('Page26Request');
   [].forEach.call(objs, element => element.style.display = '');
@@ -97,7 +97,7 @@ function Page26(props){
         let obj1 = document.querySelector('#Page26Request1');
         obj1.style.display = 'none';
         let obj3 = document.querySelector('#Page26VoteCount1');
-        if(obj3 !== null) obj3.innerHTML = 'Leader: A';
+        if(obj3 !== null) obj3.innerHTML = 'リーダー: A';
 
         anime({
           targets: '#Page26Request1',
@@ -137,7 +137,7 @@ function Page26(props){
         let obj1 = document.querySelector('#Page26Request2');
         obj1.style.display = 'none';
         let obj3 = document.querySelector('#Page26VoteCount3');
-        if(obj3 !== null) obj3.innerHTML = "Leader: A";
+        if(obj3 !== null) obj3.innerHTML = "リーダー: A";
 
         anime({
           targets: '#Page26NodeDes1',
@@ -221,7 +221,7 @@ function Page26(props){
         <div className="Page26NodeDes" id="Page26NodeDes1">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page26NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page26VoteCount1"> Voted For: A</div>
+          <div className="NodeDesContent" id="Page26VoteCount1"> 投票先: A</div>
         </div>
         <div className="Page26Node" id="Page26Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -292,7 +292,7 @@ function Page26(props){
         <div className="Page26NodeDes" id="Page26NodeDes3">
           <div className="NodeDesContent"> Node c</div>
           <div className="NodeDesContent" id="Page26NodeTerm3"> Term: 1</div>
-          <div className="NodeDesContent" id="Page26VoteCount3"> Voted For: A</div>
+          <div className="NodeDesContent" id="Page26VoteCount3"> 投票先: A</div>
         </div>
 
         <div className="Page26Node" id="Page26Node3">
@@ -325,9 +325,9 @@ function Page26(props){
         </div>
         <div className="Page26Request" id="Page26Request1"/>
         <div className="Page26Request" id="Page26Request2"/>
-        <div className="Page26Text" id="Page26Text1"> The leader begins sending out <span id="Focus"> Append Entries </span> messages to its followers.</div>
-        <div className="Page26Text" id="Page26Text2"> These messages are sent in intervals specified by the <span id="Focus"> heartbeat timeout </span>.</div>
-        <div className="Page26Text" id="Page26Text3"> The leader begins sending out Append Entries messages to its followers.</div>
+        <div className="Page26Text" id="Page26Text1"> リーダーはフォロワーに<span id="Focus">エントリ追加</span>メッセージの送信を開始します。</div>
+        <div className="Page26Text" id="Page26Text2"> これらのメッセージは<span id="Focus">ハートビートタイムアウト</span>で指定された間隔で送信されます。</div>
+        <div className="Page26Text" id="Page26Text3"> リーダーはフォロワーにエントリ追加メッセージの送信を開始します。</div>
       </div>
   );
 }

@@ -19,12 +19,12 @@ function Page29(props){
   let obj2 = document.querySelector('#Page29NodeTerm1');
   if(obj2 !== null) obj2.innerHTML = 'Term: 1';
   let obj3 = document.querySelector('#Page29VoteCount1');
-  if(obj3 !== null) obj3.innerHTML = 'Leader: A';
+  if(obj3 !== null) obj3.innerHTML = 'リーダー: A';
 
   let obj4 = document.querySelector('#Page29NodeTerm3');
   if(obj4 !== null) obj4.innerHTML = 'Term: 1';
   let obj5 = document.querySelector('#Page29VoteCount3');
-  if(obj5 !== null) obj5.innerHTML = "Leader: A";
+  if(obj5 !== null) obj5.innerHTML = "リーダー: A";
 
   let obj6 = document.querySelector('#Page29ProgressBarBG1');
   if(obj6 !== null) obj6.style.display = '';
@@ -235,7 +235,7 @@ function Page29(props){
         let obj2 = document.querySelector('#Page29NodeTerm3');
         if(obj2 !== null) obj2.innerHTML = 'Term: 2';
         let obj3 = document.querySelector('#Page29VoteCount3');
-        if(obj3 !== null) obj3.innerHTML = "Voted For: B";
+        if(obj3 !== null) obj3.innerHTML = "投票先: B";
         anime({
           targets: '#Page29Request2',
           opacity: 0,
@@ -357,7 +357,7 @@ function Page29(props){
       duration: 2000,
       complete: function() {
         let obj3 = document.querySelector('#Page29VoteCount3');
-        if(obj3 !== null) obj3.innerHTML = "Leader: B";
+        if(obj3 !== null) obj3.innerHTML = "リーダー: B";
 
         anime({
           targets: '#Page29NodeDes3',
@@ -593,7 +593,7 @@ function Page29(props){
         <div className="Page29NodeDes" id="Page29NodeDes1">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page29NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page29VoteCount1"> Leader: A</div>
+          <div className="NodeDesContent" id="Page29VoteCount1"> リーダー: A</div>
         </div>
         <div className="Page29Node" id="Page29Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -663,7 +663,7 @@ function Page29(props){
         <div className="Page29NodeDes" id="Page29NodeDes3">
           <div className="NodeDesContent"> Node c</div>
           <div className="NodeDesContent" id="Page29NodeTerm3"> Term: 1</div>
-          <div className="NodeDesContent" id="Page29VoteCount3"> Leader: A</div>
+          <div className="NodeDesContent" id="Page29VoteCount3"> リーダー: A</div>
         </div>
 
         <div className="Page29Node" id="Page29Node3">
@@ -700,11 +700,11 @@ function Page29(props){
         <div className="Page29HeartBeat" id="Page29HeartBeat1"/>
         <div className="Page29HeartBeat" id="Page29HeartBeat2"/>
         <div className="Page29HeartBeatResponse" id="Page29HeartBeatResponse1"/>
-        <div className="Page29Text" id="Page29Text1"> What if Node A is disconnected.</div>
-        <div className="Page29Text" id="Page29Text2"> Node B is now leader of term 2.</div>
-        <div className="Page29Text" id="Page29Text3"> Requiring a majority of votes guarantees that only one leader can be elected per term.</div>
-        <div className="Page29Text" id="Page29Text4"> If two nodes become candidates at the same time then a split vote can occur.</div>
-        <div className="Page29Text" id="Page29Text5"> Let's take a look at a split vote example...</div>
+        <div className="Page29Text" id="Page29Text1"> ノードAが切断されたらどうなるでしょうか。</div>
+        <div className="Page29Text" id="Page29Text2"> ノードBは現在、任期2のリーダーです。</div>
+        <div className="Page29Text" id="Page29Text3"> 過半数の投票を必要とすることで、任期ごとに1人のリーダーのみが選出されることが保証されます。</div>
+        <div className="Page29Text" id="Page29Text4"> 2つのノードが同時に候補者になると、分割投票が発生する可能性があります。</div>
+        <div className="Page29Text" id="Page29Text5"> 分割投票の例を見てみましょう...</div>
 
       </div>
   );

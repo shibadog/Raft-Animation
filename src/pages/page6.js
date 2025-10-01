@@ -51,8 +51,8 @@ function Page6(props){
         <div id="Page6Node1"> <span id="Page6Node1Text"> 0 </span> </div>
         <div id="Page6Client1"> <span id="Page6Client1Text"> 8 </span> </div>
         <div id="Page6Signal1"/>
-        <div id="Page6Text1"> <span id="Yellow"> Client </span> send its value to the <span id="Blue">node</span> </div>
-        <div id="Page6Text2"> It's easy to come to agreement or <span id="Focus"> Consensus </span> with only one node. </div>
+        <div id="Page6Text1"> <span id="Yellow">クライアント</span>が<span id="Blue">ノード</span>に値を送信します </div>
+        <div id="Page6Text2"> ノードが1つだけなら、合意や<span id="Focus">共通認識</span>に達するのは簡単です。 </div>
       </div>
   );
 }

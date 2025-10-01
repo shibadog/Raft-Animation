@@ -19,7 +19,7 @@ function Page21(props){
   return(
       <div className="title">
         <h1 id="Page21Text1" style={{display: props.display?'': 'none'}}>
-          Leader Election
+          リーダー選出
         </h1>
       </div>
   );

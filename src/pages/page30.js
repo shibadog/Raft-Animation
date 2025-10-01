@@ -84,7 +84,7 @@ function Page30(props){
   return(
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page30NodeDes" id="Page30NodeDes1">
-          <div className="NodeDesContent"> Node a</div>
+          <div className="NodeDesContent"> ノード a</div>
           <div className="NodeDesContent"> Term: 0</div>
           <div className="NodeDesContent" id="Page30VoteCount1"> Vote Count: 0</div>
         </div>
@@ -118,7 +118,7 @@ function Page30(props){
         </div>
 
         <div className="Page30NodeDes" id="Page30NodeDes2">
-          <div className="NodeDesContent"> Node b</div>
+          <div className="NodeDesContent"> ノード b</div>
           <div className="NodeDesContent" id="Page30NodeTerm2"> Term: 0</div>
           <div className="NodeDesContent" id="Page30VoteCount2"> Vote Count: 0</div>
         </div>
@@ -153,7 +153,7 @@ function Page30(props){
         </div>
 
         <div className="Page30NodeDes" id="Page30NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
+          <div className="NodeDesContent"> ノード c</div>
           <div className="NodeDesContent" id="Page30NodeTerm3"> Term: 0</div>
           <div className="NodeDesContent" id="Page30VoteCount3"> Vote Count: 0</div>
         </div>
@@ -188,7 +188,7 @@ function Page30(props){
         </div>
 
         <div className="Page30NodeDes" id="Page30NodeDes4">
-          <div className="NodeDesContent"> Node d</div>
+          <div className="NodeDesContent"> ノード d</div>
           <div className="NodeDesContent" id="Page30NodeTerm4"> Term: 0</div>
           <div className="NodeDesContent" id="Page30VoteCount4"> Vote Count: 0</div>
         </div>
@@ -222,7 +222,7 @@ function Page30(props){
           </svg>
         </div>
 
-        <div className="Page30Text" id="Page30Text1"> Two nodes both start an election for the same term... </div>
+        <div className="Page30Text" id="Page30Text1"> 2つのノードが同じ任期の選出を開始します... </div>
       </div>
   );
 }

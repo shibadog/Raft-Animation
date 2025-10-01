@@ -167,8 +167,8 @@ function Page37(props){
   return(
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page37NodeDes" id="Page37NodeDes1">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent" id="Page37NodeTerm1"> Term: 1</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent" id="Page37NodeTerm1"> 任期: 1</div>
           <div className="NodeDesContent" id="Page37VoteCount1"> Leader: A</div>
         </div>
         
@@ -176,7 +176,7 @@ function Page37(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -217,8 +217,8 @@ function Page37(props){
         </div>
 
         <div className="Page37NodeDes" id="Page37NodeDes2">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent" id="Page37NodeTerm2"> Term: 1</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent" id="Page37NodeTerm2"> 任期: 1</div>
           <div className="NodeDesContent" id="Page37VoteCount2"> Vote Count: 3</div>
         </div>
 
@@ -226,7 +226,7 @@ function Page37(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -271,8 +271,8 @@ function Page37(props){
         
 
         <div className="Page37NodeDes" id="Page37NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent" id="Page37NodeTerm3"> Term: 1</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent" id="Page37NodeTerm3"> 任期: 1</div>
           <div className="NodeDesContent" id="Page37VoteCount3"> Leader: A</div>
         </div>
 
@@ -280,7 +280,7 @@ function Page37(props){
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -325,7 +325,7 @@ function Page37(props){
         <div className="Page37HeartBeatResponse" id="Page37HeartBeatResponse2"/>
         <div className="Page37Client" id="Page37Client1"> 5 </div>
         <div className="Page37Request" id="Page37Request1"/>
-        <div className="Page37Text" id="Page37Text1"> The change is appended to the leader's log...</div>
+        <div className="Page37Text" id="Page37Text1"> 変更はリーダーのログに追加されます...</div>
       </div>
   );
 }

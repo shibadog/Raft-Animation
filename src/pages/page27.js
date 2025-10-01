@@ -173,7 +173,7 @@ function Page27(props){
         <div className="Page27NodeDes" id="Page27NodeDes1">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page27NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page27VoteCount1"> Leader: A</div>
+          <div className="NodeDesContent" id="Page27VoteCount1"> リーダー: A</div>
         </div>
         <div className="Page27Node" id="Page27Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -244,7 +244,7 @@ function Page27(props){
         <div className="Page27NodeDes" id="Page27NodeDes3">
           <div className="NodeDesContent"> Node c</div>
           <div className="NodeDesContent" id="Page27NodeTerm3"> Term: 1</div>
-          <div className="NodeDesContent" id="Page27VoteCount3"> Leader: A</div>
+          <div className="NodeDesContent" id="Page27VoteCount3"> リーダー: A</div>
         </div>
 
         <div className="Page27Node" id="Page27Node3">
@@ -279,8 +279,8 @@ function Page27(props){
         <div className="Page27Request" id="Page27Request2"/>
         <div className="Page27Signal" id="Page27Signal1"/>
         <div className="Page27Signal" id="Page27Signal2"/>
-        <div className="Page27Text" id="Page27Text1"> Followers then respond to each <span id="Focus"> Append Entries </span> messages.</div>
-        <div className="Page27Text" id="Page27Text2"> This election term will continue until a follower stops receiving heartbeats and becomes a candidate.</div>
+        <div className="Page27Text" id="Page27Text1"> フォロワーは各<span id="Focus">エントリ追加</span>メッセージに応答します。</div>
+        <div className="Page27Text" id="Page27Text2"> この選出任期は、フォロワーがハートビートの受信を停止して候補者になるまで続きます。</div>
       </div>
   );
 }

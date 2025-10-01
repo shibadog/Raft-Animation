@@ -156,8 +156,8 @@ function Page36(props){
   return(
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page36NodeDes" id="Page36NodeDes1">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent" id="Page36NodeTerm1"> Term: 1</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent" id="Page36NodeTerm1"> 任期: 1</div>
           <div className="NodeDesContent" id="Page36VoteCount1"> Leader: A</div>
         </div>
         <div className="Page36Node" id="Page36Node1">
@@ -190,8 +190,8 @@ function Page36(props){
         </div>
 
         <div className="Page36NodeDes" id="Page36NodeDes2">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent" id="Page36NodeTerm2"> Term: 1</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent" id="Page36NodeTerm2"> 任期: 1</div>
           <div className="NodeDesContent" id="Page36VoteCount2"> Vote Count: 3</div>
         </div>
 
@@ -227,8 +227,8 @@ function Page36(props){
         </div>
 
         <div className="Page36NodeDes" id="Page36NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent" id="Page36NodeTerm3"> Term: 1</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent" id="Page36NodeTerm3"> 任期: 1</div>
           <div className="NodeDesContent" id="Page36VoteCount3"> Leader: A</div>
         </div>
 
@@ -265,7 +265,7 @@ function Page36(props){
         <div className="Page36Signal" id="Page36Signal1"/>
         <div className="Page36Signal" id="Page36Signal2"/>
         <div className="Page36Client" id="Page36Client1"> 5 </div>
-        <div className="Page36Text" id="Page36Text1"> First a client sends a change to the leader.</div>
+        <div className="Page36Text" id="Page36Text1"> まず、クライアントがリーダーに変更を送信します。</div>
       </div>
   );
 }

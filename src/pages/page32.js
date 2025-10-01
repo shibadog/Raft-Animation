@@ -142,7 +142,7 @@ function Page32(props){
         <div className="Page32NodeDes" id="Page32NodeDes1">
           <div className="NodeDesContent"> Node a</div>
           <div className="NodeDesContent" id="Page32NodeTerm1"> Term: 1</div>
-          <div className="NodeDesContent" id="Page32VoteCount1"> Voted For: C</div>
+          <div className="NodeDesContent" id="Page32VoteCount1"> 投票先: C</div>
         </div>
         <div className="Page32Node" id="Page32Node1">
           <svg className="progress-bar" viewBox="0 0 100 100">
@@ -176,7 +176,7 @@ function Page32(props){
         <div className="Page32NodeDes" id="Page32NodeDes2">
           <div className="NodeDesContent"> Node b</div>
           <div className="NodeDesContent" id="Page32NodeTerm2"> Term: 1</div>
-          <div className="NodeDesContent" id="Page32VoteCount2"> Voted For: D</div>
+          <div className="NodeDesContent" id="Page32VoteCount2"> 投票先: D</div>
         </div>
 
         <div className="Page32Node" id="Page32Node2">
@@ -279,7 +279,7 @@ function Page32(props){
         </div>
         <div className="Page32Signal" id="Page32Signal1"/>
         <div className="Page32Signal" id="Page32Signal2"/>
-        <div className="Page32Text" id="Page32Text1"> Now each candidate has 2 votes and can receive no more for this term. </div>
+        <div className="Page32Text" id="Page32Text1"> 現在、各候補者は2票を持っており、この任期ではこれ以上の投票を受け取ることはできません。 </div>
       </div>
   );
 }

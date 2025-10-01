@@ -61,14 +61,14 @@ function Page18(props){
       <div style={{display: props.display?'': 'none'}}>
         <div className="Page18Node" id="Page18Node1"/>
         <div className="Page18NodeDes" id="Page18NodeDes1">
-          <div className="NodeDesContent"> Node a</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード a</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <table className="Page18Log" id="Page18Log1">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -81,14 +81,14 @@ function Page18(props){
 
         <div className="Page18Node" id="Page18Node2"/>
         <div className="Page18NodeDes" id="Page18NodeDes2">
-          <div className="NodeDesContent"> Node b</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード b</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <table className="Page18Log" id="Page18Log2">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -100,15 +100,15 @@ function Page18(props){
         </table>
 
         <div className="Page18NodeDes" id="Page18NodeDes3">
-          <div className="NodeDesContent"> Node c</div>
-          <div className="NodeDesContent"> Term: 0</div>
+          <div className="NodeDesContent"> ノード c</div>
+          <div className="NodeDesContent"> 任期: 0</div>
         </div>
         <div className="Page18Node" id="Page18Node3"/>
         <table className="Page18Log" id="Page18Log3">
           <tbody>
           <tr id="TR">
             <th>
-              Log
+              ログ
             </th>
           </tr>
           <tr id="TR">
@@ -121,7 +121,7 @@ function Page18(props){
         <div className="Page18Client" id="Page18Client1"> 5 </div>
         <div className="Page18Request" id="Page18Request1"/>
         <div className="Page18Request" id="Page18Request2"/>
-        <div className="Page18Text" id="Page18Text1"> To commit the entry the node first replicates it to the follower nodes. </div>
+        <div className="Page18Text" id="Page18Text1"> エントリをコミットするために、ノードはまずフォロワーノードに複製します。 </div>
       </div>
   );
 }
